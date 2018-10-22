@@ -1234,6 +1234,14 @@ pre .javascript .function {
   cursor: zoom-in;
   cursor: -webkit-zoom-in;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
+}
 .post-body .image-caption,
 .post-body .figure .caption {
   margin: -20px auto 15px;
@@ -1823,7 +1831,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5c609c;
+  background: #ff834e;
 }
 .links-of-blogroll {
   font-size: 13px;
